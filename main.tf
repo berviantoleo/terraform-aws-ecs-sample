@@ -13,7 +13,7 @@ provider "aws" {
       Environment = "Dev"
     }
   }
-} 
+}
 
 resource "aws_default_vpc" "my-personal-web" {
 
