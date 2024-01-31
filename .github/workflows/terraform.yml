@@ -42,6 +42,7 @@ jobs:
       run: terraform validate -no-color
 
     # Test the module
+    # currently only run the unittests to avoid conflict with HCP
     - name: Terraform Test
       id: test
-      run: terraform test
+      run: terraform test -test-directory=unittests

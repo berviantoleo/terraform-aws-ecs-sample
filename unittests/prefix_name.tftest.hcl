@@ -1,5 +1,5 @@
 variables {
-  name-prefix = "test"
+  name_prefix = "test"
 }
 
 run "some_resources_should_have_prefix" {
