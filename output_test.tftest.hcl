@@ -1,5 +1,5 @@
 variables {
-  name-prefix = "test"
+  name_prefix = "test"
 }
 
 run "output_pattern_should_be_expected" {

@@ -10,7 +10,7 @@ variable "ecs-default-region-1" {
   description = "Default Availability Zone 1 for ECS cluster"
 }
 
-variable "name-prefix" {
+variable "name_prefix" {
   type        = string
   default     = "my-personal-web"
   description = "Each non-default resource will have this prefix. The resource name will be <prefix>-<resource actual name>"
